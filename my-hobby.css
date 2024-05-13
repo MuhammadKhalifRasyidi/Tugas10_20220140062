@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Mengatur jenis font */
+    text-align: center; /* Pusatkan konten di tengah */
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* Kombinasi linear gradient */
+    color: white; /* Mengatur warna teks */
+}
+
+h1 {
+    margin-bottom: 20px; /* Beri jarak antara judul dan konten */
+}
+
+div {
+    display: inline-block; /* Membuat div berjejer secara horizontal */
+    text-align: center; /* Pusatkan konten di tengah */
+    margin: 0 10px; /* Beri jarak antara div */
+}
+
+img {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    width: 200px; /* Mengatur ukuran gambar */
+    display: block; /* Agar gambar berada di tengah */
+    margin: 0 auto; /* Mengatur margin agar gambar berada di tengah */
+    transition: transform 0.3s ease; /* Animasi ketika dihover */
+}
+
+img:hover {
+    transform: scale(1.1); /* Perbesar gambar saat dihover */
+}
+
+p {
+    margin-top: 10px; /* Beri jarak antara gambar dan teks */
+}
+
+.footer {
+    background-color: #2c3e50; /* Warna background footer */
+    color: white; /* Warna teks putih */
+    padding: 20px; /* Padding agar konten footer terlihat rapi */
+}
+
+.social-icons a {
+    color: white; /* Mengubah warna ikon menjadi putih */
+    margin: 0 5px; /* Memberikan jarak antara ikon */
+    font-size: 24px; /* Ukuran ikon */
+}
+
+.social-icons a:hover {
+    color: #3498db; /* Mengubah warna ikon saat dihover */
+}
+
