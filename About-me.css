@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    height: 100vw;
+    background: #44010b;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    overflow: clip;
+
+    font-family: Biotif;
+    margin-top: 100px;
+}
+
+.Introduction{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+
+.Saya1{
+    color: #65daec;
+    font-size: 45px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.Saya2{
+    font-size: 25px;
+    margin-top: -30px;
+
+}
+
+.paragraf1{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.paragraf2{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+
+.potoprofil{
+    width: 250px;
+    display: inline;
+    border: #020b25 5px solid;
+    border-radius: 20px;
+}
+
+.semua{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border: #ECB365 1px solid;
+    color: #ECB365;
+    padding: 8px 16px;
+    font-size: 12px;
+    border-radius: 25px;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #ECB365;
+    color: black;
+}
+
